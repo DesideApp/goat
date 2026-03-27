@@ -10,6 +10,7 @@
     },
     "license": "MIT",
     "dependencies": {
+        "@deside/mcp-sdk": "link:../../../../../deside-prod/mcp-sdk",
         "@goat-sdk/core": "workspace:*",
         "@goat-sdk/plugin-deside": "workspace:*",
         "@goat-sdk/wallet-solana": "workspace:*",

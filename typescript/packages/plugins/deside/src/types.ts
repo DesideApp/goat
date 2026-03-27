@@ -1,23 +1,10 @@
-export type DesideSignatureEncoding = "auto" | "base58" | "hex" | "base64";
+import type {
+    DesideMcpSdkOptions,
+    DesideOAuthTokens,
+    DesideSignatureEncoding,
+    DesideTransportError,
+} from "@deside/mcp-sdk";
 
-export type DesidePluginOptions = {
-    baseUrl?: string;
-    mcpPath?: string;
-    oauthClientName?: string;
-    oauthRedirectUri: string;
-    oauthScope?: string;
-    clientVersion?: string;
-    signatureEncoding?: DesideSignatureEncoding;
-};
+export type { DesideOAuthTokens, DesideSignatureEncoding, DesideTransportError };
 
-export type DesideTransportError = {
-    error?: string;
-    message?: string;
-    status?: number;
-};
-
-export type DesideOAuthTokens = {
-    accessToken: string;
-    refreshToken: string | null;
-    expiresAt: number;
-};
+export type DesidePluginOptions = DesideMcpSdkOptions;

@@ -13,9 +13,9 @@
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
     "dependencies": {
+        "@deside/mcp-sdk": "link:../../../../../deside-prod/mcp-sdk",
         "@goat-sdk/core": "workspace:*",
         "@goat-sdk/wallet-solana": "workspace:*",
-        "bs58": "^6.0.0",
         "zod": "catalog:"
     },
     "peerDependencies": {
