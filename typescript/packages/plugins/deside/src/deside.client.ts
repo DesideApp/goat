@@ -1,4 +1,4 @@
-import { DesideMcpSdk, type DesideSigner } from "@deside/mcp-sdk";
+import { DesideMcpSdk, type DesideSigner } from "@desideapp/mcp-sdk";
 import { SolanaWalletClient } from "@goat-sdk/wallet-solana";
 import {
     GetUserInfoParameters,

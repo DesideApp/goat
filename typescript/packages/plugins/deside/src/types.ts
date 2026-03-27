@@ -3,8 +3,7 @@ import type {
     DesideOAuthTokens,
     DesideSignatureEncoding,
     DesideTransportError,
-} from "@deside/mcp-sdk";
-
+} from "@desideapp/mcp-sdk";
 export type { DesideOAuthTokens, DesideSignatureEncoding, DesideTransportError };
 
 export type DesidePluginOptions = DesideMcpSdkOptions;

@@ -820,9 +820,9 @@ importers:
 
   examples/by-use-case/solana-deside-messaging:
     dependencies:
-      '@deside/mcp-sdk':
-        specifier: link:../../../../../deside-prod/mcp-sdk
-        version: link:../../../../../deside-prod/mcp-sdk
+      '@desideapp/mcp-sdk':
+        specifier: ^0.1.0
+        version: 0.1.0
       '@goat-sdk/core':
         specifier: workspace:*
         version: link:../../../packages/core
@@ -1643,9 +1643,9 @@ importers:
 
   packages/plugins/deside:
     dependencies:
-      '@deside/mcp-sdk':
-        specifier: link:../../../../../deside-prod/mcp-sdk
-        version: link:../../../../../deside-prod/mcp-sdk
+      '@desideapp/mcp-sdk':
+        specifier: ^0.1.0
+        version: 0.1.0
       '@goat-sdk/core':
         specifier: workspace:*
         version: link:../../core
@@ -4559,6 +4559,10 @@ packages:
   '@datastax/astra-db-ts@1.5.0':
     resolution: {integrity: sha512-Z9pEVyyHfglh8XAKrIASxdvORdei4pLUKDDGarqYvBkA9B9rKdqqdN+4I42Dz8paU5uscu8FwM5mc+Ly/U6jfA==}
     engines: {node: '>=14.0.0'}
+
+  '@desideapp/mcp-sdk@0.1.0':
+    resolution: {integrity: sha512-Sh7CYqsmX6KLuIi2KIxa0LoYyW9GOCQ2ROswc9+vBesuQyGawEmjK1TeseQOBJqRw7K85rVw24UDntyIPTqEcw==}
+    engines: {node: '>=20'}
 
   '@discordjs/builders@1.10.1':
     resolution: {integrity: sha512-OWo1fY4ztL1/M/DUyRPShB4d/EzVfuUvPTRRHRIt/YxBrUYSz0a+JicD5F5zHFoNs2oTuWavxCOVFV1UljHTng==}
@@ -21128,6 +21132,10 @@ snapshots:
       safe-stable-stringify: 2.5.0
       typed-emitter: 2.1.0
       uuidv7: 0.6.3
+
+  '@desideapp/mcp-sdk@0.1.0':
+    dependencies:
+      bs58: 6.0.0
 
   '@discordjs/builders@1.10.1':
     dependencies:
